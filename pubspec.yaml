@@ -1,0 +1,20 @@
+name: dart_ai
+description: The extendable AI toolkit for Dart, providing a clean and type-safe interface for working with AI language models, inspired by Vercel's AI SDK for TypeScript.
+version: 0.0.1
+topics:
+  - ai
+  - ai-sdk
+  - gemini
+  - mistral
+  - openai
+repository: https://github.com/gagik/dart_ai
+
+environment:
+  sdk: '>=3.8.0'
+
+dependencies:
+  http: ^1.0.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.2
