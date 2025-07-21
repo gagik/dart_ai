@@ -10,7 +10,7 @@ topics:
 repository: https://github.com/gagik/dart_ai
 
 environment:
-  sdk: '>=3.8.0'
+  sdk: '>=3.8.0 <4.0.0'
 
 dependencies:
   http: ^1.0.0

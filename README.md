@@ -160,41 +160,9 @@ try {
 }
 ```
 
-## Environment Variables
+## Running an Example Application
 
-Set your API keys as environment variables:
-
-```bash
-export OPENAI_API_KEY="your-openai-api-key"
-export MISTRAL_API_KEY="your-mistral-api-key"
-export GEMINI_API_KEY="your-gemini-api-key"
-```
-
-## Running the Examples
-
-### Interactive Chat App
-
-```bash
-# Set your API key
-export OPENAI_API_KEY="your-openai-key"  # or MISTRAL_API_KEY
-
-# Run the chat app
-dart run example/chat_cli/main.dart
-
-# Or specify provider
-dart run example/chat_cli/main.dart openai
-dart run example/chat_cli/main.dart mistral
-```
-
-### Other Examples
-
-```bash
-# Multi-provider demo
-dart run bin/dart_ai.dart
-
-# Detailed Mistral example
-dart run example/mistral_example.dart
-```
+There's a basic command-line chat application in the [example/chat_cli](example/chat_cli) directory that supports different AI providers and models. See the [README](example/chat_cli/README.md) for more details.
 
 ## Running Tests
 
@@ -245,6 +213,7 @@ The following features are planned to be implemented in the future:
 - [ ] Support for other AI providers.
 - [ ] Flutter UI helpers for chat apps.
 - [ ] `flutter_hooks` support for `useChat` hook.
+- [ ] Moving providers into their own separate packages.
 
 ## Contributing
 
